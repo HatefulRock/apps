@@ -17,4 +17,8 @@ Plan routines, log every set in a guided session, quick-log runs and other activ
 
 **The rest timer alert doesn't appear.** Check that notifications are allowed for FlexTrack in your phone's settings. FlexTrack asks once, the first time you start a rest.
 
+**Can FlexTrack send my workouts to Apple Health, Health Connect or my watch?** Yes. Tap the heart button in History and turn on Health sync. Each finished workout is then written to Apple Health (iPhone) or Health Connect (Android). From there, apps that read those stores, such as Garmin Connect, Fitbit, Samsung Health or Strava, can show it too. You can also send your past workouts at the same time. Resending never creates duplicates. FlexTrack only writes workouts and never reads your health data.
+
+**Health sync says it couldn't send a workout.** Open the Health app on iPhone (your profile, then Apps, then FlexTrack) or Health Connect on Android (App permissions, then FlexTrack), and check that FlexTrack is allowed to write workouts. Then use Resend all in FlexTrack. Health Connect needs Android 8 or later.
+
 **Does FlexTrack need an internet connection?** No. It works fully offline.

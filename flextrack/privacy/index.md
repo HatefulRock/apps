@@ -10,7 +10,7 @@ FlexTrack is a workout tracker for planning routines, logging sessions and follo
 
 ## What FlexTrack stores, and where
 
-Everything you enter (routines, exercises, logged sets, activities, notes, height and body weight) is stored only on your device, inside the app's private storage. FlexTrack has no accounts, no servers and no cloud sync. It contains no analytics, advertising, crash-reporting or tracking software, and it makes no network requests.
+Everything you enter (routines, exercises, logged sets, activities, notes, height and body weight) is stored only on your device, inside the app's private storage. FlexTrack has no accounts, no servers and no cloud sync. It contains no analytics, advertising, crash-reporting or tracking software, and it makes no network requests. The only time data leaves the app is when you send it yourself, through Health sync or an export, both described below.
 
 ## Device backups
 
@@ -28,14 +28,25 @@ When you choose Export in History, FlexTrack creates a JSON file with your data 
 ## Permissions
 
 - **Notifications:** to alert you when a rest period ends while the app is in the background. These alerts are scheduled on your device and contain no data beyond the next exercise's name.
+- **Apple Health (iPhone) or Health Connect (Android):** write access to workouts, and on Android to distance, used only if you turn on Health sync. FlexTrack never asks to read your health data.
 
 ## Health information
 
-Body weight, height and workout history are personal information. FlexTrack keeps them only on your device and does not read from or write to Apple Health or Health Connect. FlexTrack is not a medical device and does not give medical advice.
+Body weight, height and workout history are personal information. FlexTrack keeps them on your device. FlexTrack is not a medical device and does not give medical advice.
+
+## Health sync with Apple Health and Health Connect
+
+Health sync is off until you turn it on from the heart button in History. When it is on, FlexTrack writes each finished workout to Apple Health on iPhone, or to Health Connect on Android. Each workout includes its type (strength, run, walk, ride or other), its name, its start and end time, and, for runs, walks and rides, the distance you logged. Your sets, weights, notes, body weight and height are never sent.
+
+- The data goes from FlexTrack straight to the health app on your phone. It never passes through us, and we can't see it.
+- FlexTrack only writes to Apple Health and Health Connect. It never reads anything from them.
+- Data shared with Apple Health or Health Connect is never used for advertising, never sold, and never shared with third parties by FlexTrack.
+- Once a workout is in Apple Health or Health Connect, it is governed by Apple's or Google's privacy policy. Other apps you have allowed to read those stores, such as Garmin Connect, Fitbit or Strava, may then read it under their own policies.
+- You can turn Health sync off in FlexTrack at any time, and you can remove FlexTrack's access in the Health app (iPhone) or in Health Connect settings (Android). Workouts already written stay there until you delete them in that app.
 
 ## Deleting your data
 
-You can delete routines inside the app. Uninstalling FlexTrack deletes everything it stored on the device. Copies in your device backups or in files you exported are managed by you.
+You can delete routines inside the app. Uninstalling FlexTrack deletes everything it stored on the device. Copies in your device backups, in files you exported, or in Apple Health or Health Connect are managed by you, and you can delete them there.
 
 ## Children
 
@@ -43,7 +54,7 @@ FlexTrack is not directed at children and does not knowingly handle children's d
 
 ## Changes
 
-If this policy changes, the updated version will be posted here with a new effective date. Because FlexTrack collects no data, any change would apply only to how the app works on your device.
+If this policy changes, the updated version will be posted here with a new effective date. Because FlexTrack collects no data, any change would apply only to how the app works on your device and what it sends to apps you choose.
 
 ## Contact
 
