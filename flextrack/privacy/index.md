@@ -10,7 +10,7 @@ FlexTrack is a workout tracker for planning routines, logging sessions and follo
 
 ## What FlexTrack stores, and where
 
-Everything you enter (routines, exercises, logged sets, activities, notes, height and body weight) is stored only on your device, inside the app's private storage. FlexTrack has no accounts, no servers and no cloud sync. It contains no analytics, advertising, crash-reporting or tracking software, and it makes no network requests. The only time data leaves the app is when you send it yourself, through Health sync or an export, both described below.
+Everything you enter (routines, exercises, logged sets, activities, notes, height and body weight) is stored only on your device, inside the app's private storage. FlexTrack has no accounts, no servers and no cloud sync. It contains no analytics, advertising, crash-reporting or tracking software, and it makes no network requests. Data leaves the app only through Health sync or an export, which you start yourself, and to your own widgets and paired watch, all described below.
 
 ## Device backups
 
@@ -33,6 +33,10 @@ When you choose Export in History, FlexTrack creates a JSON file with your data 
 ## Health information
 
 Body weight, height and workout history are personal information. FlexTrack keeps them on your device. FlexTrack is not a medical device and does not give medical advice.
+
+## Widgets and watch apps
+
+If you add a FlexTrack widget to your home screen, or install FlexTrack on your Apple Watch or Wear OS watch, the app shares a small summary with them: your current streak, the days you trained, and your scheduled routines with their exercises and targets. On iPhone, the widget reads it from storage shared only between FlexTrack and its widget, and the watch receives it over Apple's direct link between your iPhone and your paired Apple Watch. On Android, the widget reads it from the app's own storage, and the watch receives it through Google's Wear OS connection between your phone and your paired watch. It never goes to us or to any server we run.
 
 ## Health sync with Apple Health and Health Connect
 

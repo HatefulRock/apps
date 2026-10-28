@@ -21,4 +21,6 @@ Plan routines, log every set in a guided session, quick-log runs and other activ
 
 **Health sync says it couldn't send a workout.** Open the Health app on iPhone (your profile, then Apps, then FlexTrack) or Health Connect on Android (App permissions, then FlexTrack), and check that FlexTrack is allowed to write workouts. Then use Resend all in FlexTrack. Health Connect needs Android 8 or later.
 
+**Is there a widget or a watch app?** Yes. FlexTrack has Streak and Next workout widgets for the home screen, and apps for Apple Watch and Wear OS that show your streak and today's routine with each exercise's target. The watch apps sync from your phone automatically. Open FlexTrack on your phone once after installing the watch app.
+
 **Does FlexTrack need an internet connection?** No. It works fully offline.
